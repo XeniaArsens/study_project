@@ -1,0 +1,33 @@
+1. Print working directory - pwd 
+ 2. create directories - mkdir foldername 
+ 3. change directory - cd foldername
+ 4. create 3 new directories - mkdir foldername foldername foldername 
+ 5. change directory - cd foldername 
+ 6. create 5 new files - Touch filename filename и тд
+ 7. create 3 new directories - mkdir foldername foldername foldername 
+ 8. display all directories and files  -  ls -la
+ 9. open file in a text reader - vim filename
+ 10. write text in a file -  vim filename
+ 11. save and exit - esc :wq
+ 12. change directory to the upper directory -  cd ..
+ 13. move the file to the other directory - mv filename foldername 
+ 14. copy file to the other directory - cp filename direction 
+ 15. find a file by name - find . -name «»
+ 16. show the content of the file - cat filename
+ 17. print the top lines - head filename
+ 18. print the last lines - tail filename. 
+ 19. ptint the large file's content - less filename 
+ 20. ptint the date - Date
+ 21. sent http protocol to the server - Curl url 
+ 22.  write a skript:
+   vim filename ;
+   #!/bin/bash 
+   cd foldername
+   mkdir foldername
+   cd foldername
+   touch filename
+   mkdir foldername
+   ls -la
+   mv filename foldername 
+   chmod +x filename 
+   ./filename
