@@ -1,5 +1,4 @@
-1. Print working directory - pwd 
- 2. create directories - mkdir foldername 
+
  3. change directory - cd foldername
  4. create 3 new directories - mkdir foldername foldername foldername 
  5. change directory - cd foldername 
@@ -31,3 +30,11 @@
    mv filename foldername 
    chmod +x filename 
    ./filename
+
+  23. push files to the Github:
+
+  git status
+  git add
+  git commit
+  git push
+
